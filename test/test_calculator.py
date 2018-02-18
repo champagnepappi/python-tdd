@@ -6,3 +6,6 @@ class TddInPythonExample(unittest.TestCase):
         calculator = Calculator()
         result = calc.add(2,3)
         self.assertEqual(5, result)
+
+if __name__ == '__main__':
+    unittest.main()
