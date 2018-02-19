@@ -3,12 +3,11 @@ class Calculator(object):
         number_types = (int, long, float, complex)
 
         if isinstance(x,number_types) and isinstance(y, number_types):
-            # return x+y
+            return x+y
             # print 'X is: {}'.format(x)
             # print 'Y is: {}'.format(y)
-            import pdb; pdb.set_trace()
-            result = x - y
+            # import pdb; pdb.set_trace()
             # print 'Result is: {}'.format(result)
-            return result
+            # return x - y
         else:
             raise ValueError
