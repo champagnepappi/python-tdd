@@ -4,10 +4,11 @@ class Calculator(object):
 
         if isinstance(x,number_types) and isinstance(y, number_types):
             # return x+y
-            print 'X is: {}'.format(x)
-            print 'Y is: {}'.format(y)
+            # print 'X is: {}'.format(x)
+            # print 'Y is: {}'.format(y)
+            import pdb; pdb.set_trace()
             result = x - y
-            print 'Result is: {}'.format(y)
+            # print 'Result is: {}'.format(result)
             return result
         else:
             raise ValueError
