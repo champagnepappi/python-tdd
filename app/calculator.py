@@ -3,6 +3,11 @@ class Calculator(object):
         number_types = (int, long, float, complex)
 
         if isinstance(x,number_types) and isinstance(y, number_types):
-            return x+y
+            # return x+y
+            print 'X is: {}'.format(x)
+            print 'Y is: {}'.format(y)
+            result = x - y
+            print 'Result is: {}'.format(y)
+            return result
         else:
             raise ValueError
